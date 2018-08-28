@@ -24,15 +24,15 @@ public class JacksonObjectMapperExample {
 public static void main(String[] args) throws IOException {
 		
 		//read json file data to String
-//		byte[] jsonData = Files.readAllBytes(Paths.get("C://Users//Administrator//eclipse-workspace//jackson//employee.txt"));
-//		
+		byte[] jsonData = Files.readAllBytes(Paths.get("C://Users//Administrator//eclipse-workspace//jackson//employee.txt"));
+		
 		//create ObjectMapper instance
 		ObjectMapper objectMapper = new ObjectMapper();
-//		
-//		//convert json string to object
-//		Employee emp = objectMapper.readValue(jsonData, Employee.class);
-//		
-//		System.out.println("Employee Object\n"+emp);
+		
+		//convert json string to object
+		Employee emp = objectMapper.readValue(jsonData, Employee.class);
+		
+		System.out.println("Employee Object\n"+emp);
 		
 		//convert Object to json string
 		Employee emp1 = createEmployee();
