@@ -1,7 +1,7 @@
 /*
 	Hi Brian T!
 */
-package reference;
+package study.reference;
 
 public class A {
 	public static String str ="sà"; 

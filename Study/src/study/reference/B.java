@@ -1,7 +1,7 @@
 /*
 	Hi Brian T!
 */
-package reference;
+package study.reference;
 
 public class B {
 	A xc = new A();
